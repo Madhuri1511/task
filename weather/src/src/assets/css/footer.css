@@ -1,0 +1,65 @@
+.footer{
+    background-color: #f4f2f2;
+}
+.quicklinks h5,
+.quickforms h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #010141;
+    padding-bottom: 24px;
+    margin-bottom: 0px;
+}
+.quicklinks ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0px;
+}
+.quicklinks ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #010141;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.quicklinks ul li a:hover{
+    color: #d3b574;
+}
+.quickforms .form-control{
+    border: 1px solid #69727d;
+    color: #313131;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 2px;
+}
+.quickforms .form-control:focus{
+    box-shadow: none;
+}
+.quickforms button{
+    background-color: #EFA135; 
+    color: #f4f2f2;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 0px;
+    padding: 12px 28px;
+    transition: 0.3s;
+}
+.quickforms button:hover{
+    background-color: #010141;
+}
+.sub-footer{
+    background-color: #010141;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.sub-footer p{
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 14px 0px;
+}

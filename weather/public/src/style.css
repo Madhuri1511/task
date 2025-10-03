@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* App container baseline */
+html, body, #app { height: 100%; }
+body { @apply bg-slate-900 text-slate-100; }
